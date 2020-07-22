@@ -1,0 +1,11 @@
+def hello():
+    print "Welcome to the seconds calculator"
+    day = raw_input("Enter your birth date:")
+    month = raw_input("Enter your birth month")
+    year = raw_input("Enter your birth year")
+    
+    print day
+    print month
+    print year
+
+hello()

@@ -1,0 +1,26 @@
+import random
+import httplib
+def main():
+    r = random.randint(000000,999999)
+    print r
+    conn = httplib.HTTPSConnection("www.google.com")
+    conn.request("GET", "/")
+    r1 = conn.getresponse()
+    print r1.status, r1.reason
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
+

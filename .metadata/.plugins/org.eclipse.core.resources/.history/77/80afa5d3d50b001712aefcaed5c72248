@@ -1,0 +1,4 @@
+year = input("List the year")
+print (year)
+
+print (year % 4)

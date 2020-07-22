@@ -1,0 +1,6 @@
+year = input("List the year")
+print (year)
+
+power = year ** 2
+print (power)
+

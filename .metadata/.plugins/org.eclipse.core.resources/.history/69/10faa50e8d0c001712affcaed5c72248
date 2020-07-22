@@ -1,0 +1,20 @@
+import random
+
+def main():
+    r = random.randint(000000,999999)
+    print r
+    print r[1]    
+    
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
+
